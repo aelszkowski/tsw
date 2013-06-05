@@ -1,0 +1,27 @@
+  .absoluteCentered ( @width, @height) {
+    position: absolute;
+    width: @width;
+    height: @height;
+    left: 50%;
+    top: 50%;
+    margin-left: -@width/2;
+    margin-top: -@height/2;
+
+  }
+
+  .fullscreen {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+  }
+
+  .boxsizing{
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
