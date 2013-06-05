@@ -1,0 +1,10 @@
+{
+  "name": "snake",
+  "main":"./lib/main.js",
+  "dependencies" : {
+    "node-static":">= 0.6.8",
+    "sockjs": ">= 0.3.5"
+  },
+  "version" : "0.0.1",
+  "engines" : { "node": ">= 0.8.1" }
+}
